@@ -17,7 +17,8 @@ console.log("создаю линку", link);
 
 ReactDOM.render(link, document.getElementById('root'));
 */
-
+/*
+==================V3  создает рисунок======================================
 
 const image = React.createElement('img', {
   src:
@@ -35,4 +36,7 @@ const productWithChildrenInProps = React.createElement('div', {
   children: [image, title, price, button],
 });
 
-ReactDOM.render(image, document.getElementById('root'));
+ReactDOM.render(image, document.getElementById('root'));  */
+
+
+========================================= V4   JavaScript Syntax Extension (JSX)
