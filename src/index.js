@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 const link = React.createElement(
   'a',
   {
-    href: 'https://reactjs.org/',
+    href: 'https://censor.net/ua/',
     target: '_blank',
     rel: 'noreferrer noopener',
   },
