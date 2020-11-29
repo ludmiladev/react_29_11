@@ -39,4 +39,24 @@ const productWithChildrenInProps = React.createElement('div', {
 ReactDOM.render(image, document.getElementById('root'));  */
 
 
-========================================= V4   JavaScript Syntax Extension (JSX)
+// ========================================= V4   JavaScript Syntax Extension (JSX)===========
+
+/*const link = React.createElement(
+  'a',
+  {
+    href: 'https://censor.net/ua/',
+    target: '_blank',
+    rel: 'noreferrer noopener',
+  },
+  'Ссылка на reactjs.org',
+);
+console.log("создаю линку", link);
+
+ReactDOM.render(link, document.getElementById('root')); */
+    
+const linkWithJSX = (
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer noopener">
+    Ссылка на reactjs.org
+  </a>
+);
+ReactDOM.render(linkWithJSX, document.getElementById('root'));
