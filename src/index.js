@@ -1,4 +1,4 @@
-import React from 'react';
+i mport React from 'react';
 import ReactDOM from 'react-dom';
 
 /*
@@ -63,7 +63,7 @@ const linkWithJSX = (
 ReactDOM.render(linkWithJSX, document.getElementById('root'));*/
 
 // =================================V5 JavaScript Syntax Extension (JSX) перепишем карточку продукта======================
-
+/*
 const imageUrl =
   'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640';
 const price = 10.99;
@@ -77,4 +77,23 @@ const product = (
   </div>
 );
 
-ReactDOM.render(product, document.getElementById('root'));
+ReactDOM.render(product, document.getElementById('root')); */
+
+// =================Правило общего родителя================================
+/*
+const post = (
+  <div>
+    <h2>Post Header</h2>
+    <p>Post text</p>
+  </div>
+);
+ReactDOM.render(post, document.getElementById('root'));*/
+
+/*
+const post = (
+  <>
+    <h2>Post Header</h2>
+    <p>Post text</p>
+  </>
+);
+ReactDOM.render(post, document.getElementById('root')); */
