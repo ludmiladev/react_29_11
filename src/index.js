@@ -255,7 +255,7 @@ ReactDOM.render(
 */
 
 // =====================  Инлайн CSS================================================
-
+/*
 const buttonStyles = {
   display: 'inline-flex',
   margin: '0 4px',
@@ -284,3 +284,51 @@ ReactDOM.render(
   <Button />,
   document.getElementById('root'),
 );
+*/
+
+// ============================ Ванильный CSS или SASS=========================================================
+/* Button.css */
+// .Button {
+//   display: inline-flex;
+//   margin: 0 4px;
+//   padding: 8px 24px;
+//   border: 0;
+//   border-radius: 2px;
+//   color: #ffffff;
+//   font-size: 14px;
+//   font-family: inherit;
+//   background-color: #2196f3;
+//   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+// }
+
+// .Button:hover,
+// .Button:focus {
+//   background-color: #1976d2;
+// }
+
+// .Button-disabled {
+//   background-color: #0000001f;
+//   color: #00000042;
+// }
+// Copy
+// Button.js
+
+/*
+const Button = ({ type = 'button', label, disabled }) => {
+  const btnClasses = ['Button'];
+
+  if (disabled) {
+    btnClasses.push('Button-disabled');
+  }
+
+  return (
+    <button type={type} disabled={disabled} className={btnClasses.join(' ')}>
+      {label}
+    </button>
+  );
+};
+ReactDOM.render(
+  <Button />,
+  document.getElementById('root'),
+);
+*/
